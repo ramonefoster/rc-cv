@@ -27,7 +27,7 @@ app.set('views', viewsPath)
 //Setup static dir to serve
 app.use(express.static(publicDirectoryPath))
 
-//index
+//pages
 app.get('/', (req, res) => {
     res.render('index')
 })
@@ -43,8 +43,11 @@ app.get('/astro', (req, res) => {
 app.get('/me', (req, res) => {
     res.render('me')
 })
-app.get('/contact', (req, res) => {
-    res.render('contact')
+app.get('/lna', (req, res) => {
+    res.render('lna')
+})
+app.get('/ong', (req, res) => {
+    res.render('ong')
 })
 
 

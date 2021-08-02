@@ -1,0 +1,27 @@
+.var-highlight{
+    color: #9b37c2;
+  }
+  .string-highlight{
+    color: rgba(253, 149, 90, 0.8);
+  }
+
+  .node-highlight{
+      color: dodgerblue;
+  }
+
+  .type-comment{
+    color: rgb(11, 161, 61);
+}
+
+.type-comment-c{
+    color: rgb(100, 100, 100);
+}
+
+.type-sec{
+    color: rgb(201, 198, 54);
+}
+
+
+pre{
+    font-size: 13px;
+}

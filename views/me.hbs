@@ -19,6 +19,8 @@
   <title>CV Ramon</title>
 
   <link href="css/main.3f6952e4.css" rel="stylesheet">
+  <link href="css/typing.css" rel="stylesheet">
+
 </head>
 
 <body class="">
@@ -71,19 +73,21 @@
                   <h3>Programacao </h3>
                   <p>Experiencia utilizando as linguagens C, C# e desenvolvimento web, com html, css e NodeJS.</p>
                   <h3><i class="bi bi-code"></i></h3>
-                  <h5 style="color:rgb(132, 0, 255); background-color: rgba(219, 219, 219, 0.719); height: 80px;">
-                    <br>
-                   <span id="typed-strings">
-                    <span>
-                      <i class="bi bi-chevron-compact-right"></i>
-app.get('/', (req, res) => { <br><br><i class="bi bi-chevron-compact-right"></i>
- res.send('Hello World!') <br><br><i class="bi bi-chevron-compact-right"></i>})
- </span>
-                  </span>
-                  <span id="typed"></span>
-                  </h5>
-                  <h3><i class="bi bi-code-slash"></i></h3>
+<pre id="typewriter" style="height: 130px;">
+<span class="type-comment-c">// Linguagem C </span>
+<span class="var-highlight">int</span> <span class="node-highlight">main</span>() {
+    </span>printf(<span class="string-highlight">'Hello World!'</span>);
+    <span class="var-highlight">return</span> <span class="type-sec">0</span>;
+}
+    </pre>
+<pre id="typewriter2" style="height: 110px;">
+<span class="type-comment">// Web dev com NODEJS</span>
+<span class="node-highlight">app</span>.<span class="var-highlight">get</span>('/', <span class="node-highlight">function</span>(req, res) {
+    <span class="node-highlight">res.</span><span class="type-sec">send</span>(<span class="string-highlight">'Feito usando NodeJS! ^^'</span>)
+})
+    </pre>
 
+                  <h3><i class="bi bi-code-slash"></i></h3>
 
                   <h3>Intercambio </h3>
                   <p>
@@ -91,7 +95,8 @@ app.get('/', (req, res) => { <br><br><i class="bi bi-chevron-compact-right"></i>
                     University Fullerton, complementando sua formação e experiência.
                   <h3>Fontes renovaveis</h3>
                   <p>
-                    Atuou com a equipe da Solar City, localizada em Barbacena-MG, no projeto de sistemas fotovoltaicos, aplicando e desenvolvendo
+                    Atuou com a equipe da Solar City, localizada em Barbacena-MG, no projeto de sistemas fotovoltaicos,
+                    aplicando e desenvolvendo
                     seus conhecimentos com temas relacionados a Energias Renováveis e Impactos da Geração Distribuída
                     em sistemas de Distribuição de Energia Elétrica.</p>
                   <h3>Trabalho Voluntario</h3>
@@ -169,11 +174,14 @@ app.get('/', (req, res) => { <br><br><i class="bi bi-chevron-compact-right"></i>
   <script>
     document.addEventListener("DOMContentLoaded", function (event) {
       type();
-      movingBackgroundImage();
+      typeWriter();
     });
   </script>
 
   <script type="text/javascript" src="js/main.70a66962.js"></script>
+  <script type="text/javascript" src="js/typing.js"></script>
+
+
 </body>
 
 </html>
